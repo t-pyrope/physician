@@ -1,0 +1,47 @@
+.section {
+  margin-bottom: 30px;
+}
+
+
+.section h3 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.section p {
+  line-height: 22px;
+}
+
+.section img {
+  border-bottom: 5px solid #d35400;
+  border-top: 5px solid #d35400
+}
+
+.source {
+  color: #535353;
+  margin-top: 10px;
+}
+
+.float-right {
+  float: right;
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.float-left {
+  float: left;
+  margin-right: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 480px) {
+  .float-right,
+  .float-left {
+    float: none;
+  }
+  .float-right {
+    margin-left: 0;
+  }
+}
